@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Generic Exploratory Data Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made to help in exploring the datasets directly withput coding. You can directly upload the csv file and have do the basic exploring.
 
-## Available Scripts
+This code base is of Frontend only made using ReactJS Library and hosted on github pages which I linked to a custom domain [https://eda.data-sciences.in](https://eda.data-sciences.in) click to view it in your browser.
 
-In the project directory, you can run:
+The Backend is developed using Flask (framework in python) and for some reasons that repository is private. And I used [https://www.pythonanywhere.com/](https://www.pythonanywhere.com/) to host the Backend server.
 
-### `npm start`
+## How to use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+So once you visit the [https://eda.data-sciences.in](https://eda.data-sciences.in), you have to upload the csv data file which you want to explore. After that select the Yes/No option indicationg whether data set contains the column names in 1st row or not.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Available Options
 
-### `npm test`
+These are the available options once you have uploaded the csv file and selected the Yes/No option indicating column names existence.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Get Top 5 Rows
 
-### `npm run build`
+Upon clicking on this option, you'll get Top 5 rows of all columns in form of images and displayed to you on browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Get Info
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Upon Clicking on this option:
+    1. You'll get details about number of missing values for each column.
+    2. Also you'll be provided with statistical details of numerical columns like count, mean, standard deviation, min, 25 percentile, 50 percentile, 75 percentile, max
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Make Plots
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Upon Clicking on this option:
+    1. You'll get a Histogram distribution of all numerical columns.
+    2. You'll get a Heatmap showing all the correlations between numerical columns.
+    3. You'll get Counts of each categorical columns
