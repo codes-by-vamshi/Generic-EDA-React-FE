@@ -3,6 +3,7 @@ import '../css/topLevelItem.css';
 import { BeatLoader } from 'react-spinners';
 import { get5Rows } from '../Api/get5Rows';
 import { getInfo } from '../Api/getInfo';
+import { getPlots } from '../Api/getPlots';
 export const TopLevelItem = ({ item, setMyItem, uniqueCode, colNamesIncluded, unClickable, handleImages }) => {
     const [loading, setLoading] = useState('');
 
@@ -18,6 +19,9 @@ export const TopLevelItem = ({ item, setMyItem, uniqueCode, colNamesIncluded, un
                 handleImages(val, imgPaths)
             } else if(val === 'getInfo') {
                 const imgPaths = await getInfo(uniqueCode, colNamesIncluded)
+                handleImages(val, imgPaths)
+            } else if(val === 'plotting') {
+                const imgPaths = await getPlots(uniqueCode, colNamesIncluded)
                 handleImages(val, imgPaths)
             }
         } catch (e) {

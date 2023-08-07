@@ -6,6 +6,7 @@ import { uploadCsvFile } from './Api/uploadCsv';
 import { TopLevelItem } from './Components/TopLevelItem';
 import { Get5Rows } from './Components/Get5Rows';
 import { GetInfo } from './Components/GetInfo';
+import { MakePlots } from './Components/MakePlots';
 function App() {
   const csvFileInputRef = useRef(null);
   const [csvState, setCsvState] = useState('');
@@ -114,6 +115,7 @@ function App() {
 
         {topLevelItem === 'get5Rows' && <Get5Rows apiImages={apiImages} />}
         {topLevelItem === 'getInfo' && <GetInfo apiImages={apiImages} />}
+        {topLevelItem === 'plotting' && <MakePlots apiImages={apiImages} />}
       </header>
     </div>
   )
