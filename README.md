@@ -22,16 +22,13 @@ Upon clicking on this option, you'll get Top 5 rows of all columns in form of im
 
 Upon Clicking on this option:
 
-    1. You'll get details about number of missing values for each column.
-
-    2. Also you'll be provided with statistical details of numerical columns like count, mean, standard deviation, min, 25 percentile, 50 percentile, 75 percentile, max
+    * You'll get details about number of missing values for each column.
+    * Also you'll be provided with statistical details of numerical columns like count, mean, standard deviation, min, 25 percentile, 50 percentile, 75 percentile, max
 
 ### Make Plots
 
 Upon Clicking on this option:
 
-    1. You'll get a Histogram distribution of all numerical columns.
-
-    2. You'll get a Heatmap showing all the correlations between numerical columns.
-    
-    3. You'll get Counts of each categorical columns
+    * You'll get a Histogram distribution of all numerical columns.
+    * You'll get a Heatmap showing all the correlations between numerical columns.
+    * You'll get Counts of each categorical columns
