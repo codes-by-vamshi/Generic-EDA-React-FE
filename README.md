@@ -23,7 +23,8 @@ Upon clicking on this option, you'll get Top 5 rows of all columns in form of im
 Upon Clicking on this option:
 
     * You'll get details about number of missing values for each column.
-    * Also you'll be provided with statistical details of numerical columns like count, mean, standard deviation, min, 25 percentile, 50 percentile, 75 percentile, max
+    * Also you'll be provided with statistical details of numerical columns
+      like count, mean, standard deviation, min, 25 percentile, 50 percentile, 75 percentile, max
 
 ### Make Plots
 
