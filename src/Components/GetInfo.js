@@ -8,18 +8,18 @@ export const GetInfo = ({ apiImages }) => {
                 if (index === 0) {
                     return <div>
                         <div>Null Value Count of Each column</div>
-                        <img src={`http://localhost:5000/api/images/${data}`} />
+                        <img src={`https://dskvamshi.pythonanywhere.com/api/images/${data}`} />
                     </div>
 
                 } else if (index === 1) {
                     return <div>
                         <div>Description of Numerical Variables</div>
-                        <img src={`http://localhost:5000/api/images/${data}`} />
+                        <img src={`https://dskvamshi.pythonanywhere.com/api/images/${data}`} />
                     </div>
 
                 } else {
                     return <div>
-                        <img src={`http://localhost:5000/api/images/${data}`} />
+                        <img src={`https://dskvamshi.pythonanywhere.com/api/images/${data}`} />
                     </div>
 
                 }
