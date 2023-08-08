@@ -1,6 +1,6 @@
 # Generic Exploratory Data Analysis
 
-This project was made to help in exploring the datasets directly withput coding. You can directly upload the csv file and have do the basic exploring.
+This project was made to help in exploring the datasets directly without coding. You can directly upload the csv file and have do the basic exploring.
 
 This code base is of Frontend only made using ReactJS Library and hosted on github pages which I linked to a custom domain [https://eda.data-sciences.in](https://eda.data-sciences.in) click to view it in your browser.
 
@@ -8,7 +8,7 @@ The Backend is developed using Flask (framework in python) and for some reasons 
 
 ## How to use
 
-So once you visit the [https://eda.data-sciences.in](https://eda.data-sciences.in), you have to upload the csv data file which you want to explore. After that select the Yes/No option indicationg whether data set contains the column names in 1st row or not.
+So once you visit the [https://eda.data-sciences.in](https://eda.data-sciences.in), you have to upload the csv data file which you want to explore. After that select the Yes/No option indicating whether data set contains the column names in 1st row or not.
 
 ## Available Options
 
