@@ -10,6 +10,8 @@ The Backend is developed using Flask (framework in python) and for some reasons 
 
 So once you visit the [https://eda.data-sciences.in](https://eda.data-sciences.in), you have to upload the csv data file which you want to explore. After that select the Yes/No option indicating whether data set contains the column names in 1st row or not.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/45mHzt-crek" frameborder="0" allowfullscreen></iframe>
+
 ## Available Options
 
 These are the available options once you have uploaded the csv file and selected the Yes/No option indicating column names existence.
