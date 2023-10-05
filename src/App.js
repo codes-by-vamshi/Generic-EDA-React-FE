@@ -41,7 +41,7 @@ function App() {
         const myColNames = await uploadCsvFile(csvState, uniqueCodeGenerated, val);
         setTimeout(() => {
           setColNames(myColNames);
-        }, 500) // Did this so I can block user from clicking as soon as he selects Yes or No
+        }, 2000) // Did this so I can block user from clicking as soon as he selects Yes or No
       }
     } catch (e) {
       //
